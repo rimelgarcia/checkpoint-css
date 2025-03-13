@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Wanderlust Travel Agency</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-plane me-2"></i>Carthage Travel
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tours">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Explore the World</h1>
+                    <p>Discover breathtaking destinations with our curated travel experiences</p>
+                    <button class="btn btn-danger cta-button">Start Your Journey</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Popular Destinations</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Bali-Trip-Cost-1.webp" class="card-img-top" alt="Bali, Indonesia">
+                        <div class="card-body">
+                            <h5 class="card-title">Bali, Indonesia</h5>
+                            <p class="card-text">Experience the perfect blend of beautiful beaches, spiritual temples, and vibrant culture in the Island of Gods.</p>
+                            <a href="#" class="btn btn-primary btn-learn-more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./santorini-island-greece.webp" class="card-img-top" alt="Santorini, Greece">
+                        <div class="card-body">
+                            <h5 class="card-title">Santorini, Greece</h5>
+                            <p class="card-text">Discover whitewashed buildings, blue-domed churches, and breathtaking sunsets over the Aegean Sea.</p>
+                            <a href="#" class="btn btn-primary btn-learn-more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images.jpeg" class="card-img-top" alt="Kyoto, Japan">
+                        <div class="card-body">
+                            <h5 class="card-title">Kyoto, Japan</h5>
+                            <p class="card-text">Immerse yourself in traditional Japanese culture with ancient temples, serene gardens, and historic geisha districts.</p>
+                            <a href="#" class="btn btn-primary btn-learn-more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours" class="section-padding" style="background-color: #f9f9f9;">
+        <div class="container">
+            <h2 class="section-title">Our Tours</h2>
+            <div class="accordion" id="toursAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Tropical Paradise - 7 Days in Bali</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <p>Experience the best of Bali with our 7-day guided tour. Visit sacred temples, relax on pristine beaches, explore rice terraces, and immerse yourself in local culture. Package includes luxury accommodation, daily breakfast, and private transportation.</p>
+                            <p><strong>Price:</strong> from 4500dt per person</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>Greek Island Hopping - 4 Days</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <p>Discover the magic of the Greek islands with our comprehensive 10-day tour. Visit Santorini, Mykonos, and Crete while enjoying stunning beaches, historic sites, and authentic Greek cuisine. Package includes ferry transfers, boutique hotels, and guided excursions.</p>
+                            <p><strong>Price:</strong> from 3490 dt per person</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>Japan Cultural Experience - 10 Days</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <p>Immerse yourself in Japanese culture with our comprehensive 12-day tour. Visit Tokyo, Kyoto, Osaka, and Hiroshima while experiencing traditional tea ceremonies, visiting ancient temples, and enjoying authentic cuisine. Package includes high-speed rail travel, 4-star accommodations, and expert local guides.</p>
+                            <p><strong>Price:</strong> from 10900 dt per person</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="destination" class="form-label">Destination of Interest</label>
+                                <select class="form-select" id="destination">
+                                    <option selected>Select a destination</option>
+                                    <option value="bali">Bali, Indonesia</option>
+                                    <option value="santorini">Santorini, Greece</option>
+                                    <option value="kyoto">Kyoto, Japan</option>                                    
+                                    <option value="other">Other (specify in message)</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p>&copy; 2025 Wanderlust Travel Agency. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-icons text-center text-md-end">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
